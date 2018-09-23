@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>PhucciSFO</title>
+    <link rel="icon" href="resources/icon.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="resources/contactPage.css">
+</head>
+<body>
+    <div class="head">
+        <a href="mainpage.html">
+            <img src="resources/phucci.png" alt="logo" style="width: 225px; height: 75px;">
+        </a>
+        <div>
+            <time id="time"></time>
+        </div>
+    </div>
+    <div class="formcontainer">
+            <form>
+                <p id="pageInfo">Contact PhucciLA
+                    <input type="text" name="firstname" class="forminput fName" placeholder="first name" required>
+                    <input type="text" name="lastname" class="forminput lName" placeholder="last name" required>
+                    <br>
+                    <input type="text" name="email" class="forminput email" placeholder="email" required>
+                    <input type="text" name="ordernumber" class="forminput order" placeholder="order number" required>
+                    <br>
+                    <img src="resources/arrow.png" alt="test" id="arrow">
+                    <select class="selector" name="reason">
+                        <option value="0">online order tracking request</option>
+                        <option value="1">general inquiries</option>
+                        <option value="2">lost or stolen items</option>
+                    </select>
+                    <p id="descriptor">message</p>
+                    <textarea class="forminput message" rows="10" cols="38"></textarea>
+                    <br>
+                    <input type="submit" name="submit" class="forminput submit">
+                </p>
+            </form>
+    </div>
+    <div class="buttonContainer">
+        <a class="button" href="mainpage.html">home</a>
+        <a class="button" href="">lookbook</a>
+        <a class="button" href="">store</a>
+        <a class="button" href="aboutpage.html">about</a>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>

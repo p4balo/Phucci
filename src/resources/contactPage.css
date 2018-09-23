@@ -1,0 +1,96 @@
+.head{
+    margin-left: 40%;
+    margin-top: 2.5%;
+}
+#time{
+    font-family: "Courier New", serif;
+    font-size: 12px;
+}
+#pageInfo{
+    font-family: "Courier New", serif;
+    font-size: 16px;
+    margin-left: 25%;
+    margin-top: 5%;
+}
+.button{
+    background-color: transparent;
+    font-family: "Courier New", serif;
+    padding-bottom: 2px;
+    font-size: 14px;
+    text-decoration: none;
+    margin-right: 3%;
+}
+.button:hover{
+    background-color: #842ae8;
+    color: white;
+}
+.buttonContainer{
+    margin-left: 30%;
+    margin-top: 10.2%;
+}
+.forminput{
+    font-family: "Courier New", serif;
+    font-size: 12px;
+    border-radius: 5px;
+    border: 2px solid grey;
+}
+.fName{
+    margin-left: 5%;
+    width: 125px;
+}
+.lName{
+    margin-left: 2%;
+    width: 125px;
+}
+.email{
+    margin-left: 20.25%;
+    margin-top: 2.5%;
+    width: 125px
+}
+.order{
+    margin-left: 2%;
+    margin-top: 2.5%;
+    width: 125px;
+}
+.forminput:focus{
+    outline: none;
+}
+.selector{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    border-radius: 5px;
+    border: 2px solid grey;
+    font-family: "Courier New", serif;
+    font-size: 12px;
+    margin-top: 2.5%;
+    margin-left: 20.25%;
+    width: 293px;
+    color: grey;
+    padding: 2px 5px 2px 5px;
+}
+.selector:focus{
+    outline: none;
+}
+#arrow{
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    top: 36.7%;
+    left: 59%;;
+}
+#descriptor{
+    font-family: "Courier New", serif;
+    font-size: 14px;
+    margin-left: 40.5%;
+    margin-top: 1.5%;
+    margin-bottom: 0;
+}
+.message{
+    resize: none;
+    margin-left: 40.5%;
+    margin-top: .5%;
+}
+.submit{
+    margin-left: 40.5%;
+    margin-top: 1.5%;
+}
